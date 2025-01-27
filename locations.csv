@@ -1,0 +1,259 @@
+id,iso3,name,adminLevel,pcode,isRegion
+1,AFG,Afghanistan,0,AF,FALSE
+2,ALA,Åland Islands,0,,FALSE
+3,ALB,Albania,0,,FALSE
+4,DZA,Algeria,0,,FALSE
+5,ASM,American Samoa,0,,FALSE
+6,AND,Andorra,0,,FALSE
+7,AGO,Angola,0,,FALSE
+8,AIA,Anguilla (United Kingdom),0,,FALSE
+9,ATA,Antarctica,0,,FALSE
+10,ATG,Antigua and Barbuda,0,,FALSE
+11,ARG,Argentina,0,,FALSE
+12,ARM,Armenia,0,,FALSE
+13,ABW,Aruba (Netherlands),0,,FALSE
+14,AUS,Australia,0,,FALSE
+15,AUT,Austria,0,,FALSE
+16,AZE,Azerbaijan,0,,FALSE
+17,BHS,Bahamas,0,,FALSE
+18,BHR,Bahrain,0,,FALSE
+19,BGD,Bangladesh,0,BD,FALSE
+20,BRB,Barbados,0,,FALSE
+21,BLR,Belarus,0,,FALSE
+22,BEL,Belgium,0,,FALSE
+23,BLZ,Belize,0,,FALSE
+24,BEN,Benin,0,,FALSE
+25,BMU,Bermuda,0,,FALSE
+26,BTN,Bhutan,0,,FALSE
+27,BOL,"Bolivia, Plurinational State of",0,,FALSE
+29,BES,"Bonaire, Saint Eustatius and Saba (The Netherlands)",0,,FALSE
+28,BIH,Bosnia and Herzegovina,0,,FALSE
+30,BWA,Botswana,0,,FALSE
+31,BVT,Bouvet Island,0,,FALSE
+32,BRA,Brazil,0,,FALSE
+33,IOT,British Indian Ocean Territory,0,,FALSE
+34,BRN,Brunei Darussalam,0,,FALSE
+35,BGR,Bulgaria,0,,FALSE
+36,BFA,Burkina Faso,0,BF,FALSE
+37,BDI,Burundi,0,BDI,FALSE
+38,KHM,Cambodia,0,,FALSE
+39,CMR,Cameroon,0,CM,FALSE
+40,CAN,Canada,0,,FALSE
+41,CPV,Cape Verde,0,,FALSE
+42,CYM,Cayman Islands,0,,FALSE
+43,CAF,Central African Republic,0,CF,FALSE
+44,TCD,Chad,0,TCD,FALSE
+45,CHL,Chile,0,,FALSE
+46,CHN,China,0,,FALSE
+47,CXR,Christmas Island,0,,FALSE
+48,CCK,Cocos (Keeling) Islands,0,,FALSE
+49,COL,Colombia,0,CO,FALSE
+50,COM,Comoros,0,,FALSE
+51,COG,Congo,0,,FALSE
+53,COK,Cook Islands,0,,FALSE
+54,CRI,Costa Rica,0,,FALSE
+55,CIV,Côte d'Ivoire,0,CI,FALSE
+56,HRV,Croatia,0,,FALSE
+57,CUB,Cuba,0,,FALSE
+58,CUW,Curaçao (Netherlands),0,,FALSE
+59,CYP,Cyprus,0,,FALSE
+60,CZE,Czech Republic,0,,FALSE
+52,COD,Democratic Republic of the Congo,0,CD,FALSE
+61,DNK,Denmark,0,,FALSE
+62,DJI,Djibouti,0,DJ,FALSE
+63,DMA,Dominica,0,,FALSE
+64,DOM,Dominican Republic,0,,FALSE
+65,ECU,Ecuador,0,,FALSE
+66,EGY,Egypt,0,,FALSE
+67,SLV,El Salvador,0,SV,FALSE
+68,GNQ,Equatorial Guinea,0,,FALSE
+69,ERI,Eritrea,0,,FALSE
+70,EST,Estonia,0,,FALSE
+215,SWZ,Eswatini,0,,FALSE
+71,ETH,Ethiopia,0,ET,FALSE
+72,FLK,Falkland Islands (Malvinas),0,,FALSE
+73,FRO,Faroe Islands,0,,FALSE
+74,FJI,Fiji,0,,FALSE
+75,FIN,Finland,0,,FALSE
+76,FRA,France,0,,FALSE
+77,GUF,French Guiana,0,,FALSE
+78,PYF,French Polynesia,0,,FALSE
+79,ATF,French Southern Territories,0,,FALSE
+80,GAB,Gabon,0,,FALSE
+81,GMB,Gambia,0,,FALSE
+82,GEO,Georgia,0,,FALSE
+83,DEU,Germany,0,,FALSE
+84,GHA,Ghana,0,,FALSE
+85,GIB,Gibraltar,0,,FALSE
+251,,Global,0,,FALSE
+86,GRC,Greece,0,,FALSE
+87,GRL,Greenland,0,,FALSE
+88,GRD,Grenada,0,,FALSE
+89,GLP,Guadeloupe (France),0,,FALSE
+90,GUM,Guam,0,,FALSE
+91,GTM,Guatemala,0,GT,FALSE
+92,GGY,Guernsey,0,,FALSE
+93,GIN,Guinea,0,,FALSE
+94,GNB,Guinea-Bissau,0,,FALSE
+95,GUY,Guyana,0,,FALSE
+96,HTI,Haiti,0,HT,FALSE
+97,HMD,Heard Island and McDonald Islands,0,,FALSE
+98,VAT,Holy See (Vatican City State),0,,FALSE
+99,HND,Honduras,0,HN,FALSE
+100,HKG,Hong Kong,0,,FALSE
+101,HUN,Hungary,0,,FALSE
+102,ISL,Iceland,0,,FALSE
+103,IND,India,0,,FALSE
+104,IDN,Indonesia,0,,FALSE
+105,IRN,"Iran, Islamic Republic of",0,,FALSE
+106,IRQ,Iraq,0,IQ,FALSE
+107,IRL,Ireland,0,,FALSE
+108,IMN,Isle of Man,0,,FALSE
+109,ISR,Israel,0,,FALSE
+110,ITA,Italy,0,,FALSE
+111,JAM,Jamaica,0,,FALSE
+112,JPN,Japan,0,,FALSE
+113,JEY,Jersey,0,,FALSE
+114,JOR,Jordan,0,,FALSE
+115,KAZ,Kazakhstan,0,,FALSE
+116,KEN,Kenya,0,KE,FALSE
+117,KIR,Kiribati,0,,FALSE
+118,PRK,"Korea, Democratic People's Republic of",0,KP,FALSE
+119,KOR,"Korea, Republic of",0,,FALSE
+120,KWT,Kuwait,0,,FALSE
+121,KGZ,Kyrgyzstan,0,,FALSE
+122,LAO,Lao People's Democratic Republic,0,,FALSE
+123,LVA,Latvia,0,,FALSE
+124,LBN,Lebanon,0,LB,FALSE
+125,LSO,Lesotho,0,,FALSE
+126,LBR,Liberia,0,,FALSE
+127,LBY,Libya,0,LY,FALSE
+128,LIE,Liechtenstein,0,,FALSE
+129,LTU,Lithuania,0,,FALSE
+130,LUX,Luxembourg,0,,FALSE
+131,MAC,Macao,0,,FALSE
+133,MDG,Madagascar,0,MG,FALSE
+134,MWI,Malawi,0,MW,FALSE
+135,MYS,Malaysia,0,,FALSE
+136,MDV,Maldives,0,,FALSE
+137,MLI,Mali,0,ML,FALSE
+138,MLT,Malta,0,,FALSE
+139,MHL,Marshall Islands,0,,FALSE
+140,MTQ,Martinique (France),0,,FALSE
+141,MRT,Mauritania,0,MR,FALSE
+142,MUS,Mauritius,0,,FALSE
+143,MYT,Mayotte,0,,FALSE
+144,MEX,Mexico,0,,FALSE
+145,FSM,"Micronesia, Federated States of",0,,FALSE
+146,MDA,"Moldova, Republic of",0,,FALSE
+147,MCO,Monaco,0,,FALSE
+148,MNG,Mongolia,0,,FALSE
+149,MNE,Montenegro,0,,FALSE
+150,MSR,Montserrat,0,,FALSE
+151,MAR,Morocco,0,,FALSE
+152,MOZ,Mozambique,0,MZ,FALSE
+153,MMR,Myanmar,0,MMR,FALSE
+154,NAM,Namibia,0,,FALSE
+155,NRU,Nauru,0,,FALSE
+156,NPL,Nepal,0,NP,FALSE
+157,NLD,Netherlands,0,,FALSE
+158,ANT,Netherlands Antilles,0,,FALSE
+159,NCL,New Caledonia,0,,FALSE
+160,NZL,New Zealand,0,,FALSE
+161,NIC,Nicaragua,0,,FALSE
+162,NER,Niger,0,NER,FALSE
+163,NGA,Nigeria,0,NG,FALSE
+164,NIU,Niue,0,,FALSE
+165,NFK,Norfolk Island,0,,FALSE
+166,MNP,Northern Mariana Islands,0,,FALSE
+132,MKD,"North Macedonia, Republic of",0,,FALSE
+167,NOR,Norway,0,,FALSE
+171,PSE,Occupied Palestinian Territory,0,PS,FALSE
+168,OMN,Oman,0,,FALSE
+169,PAK,Pakistan,0,,FALSE
+170,PLW,Palau,0,,FALSE
+172,PAN,Panama,0,,FALSE
+173,PNG,Papua New Guinea,0,,FALSE
+174,PRY,Paraguay,0,,FALSE
+175,PER,Peru,0,PE,FALSE
+176,PHL,Philippines,0,,FALSE
+177,PCN,Pitcairn,0,,FALSE
+178,POL,Poland,0,,FALSE
+179,PRT,Portugal,0,,FALSE
+180,PRI,Puerto Rico (United States),0,,FALSE
+181,QAT,Qatar,0,,FALSE
+25928035,,Region - Asia and the Pacific,0,,TRUE
+25928036,,Region - Europe,0,,TRUE
+25928037,,Region - Latin America and the Caribbean,0,,TRUE
+25928038,,Region - Middle East and Northern Africa,0,,TRUE
+25928039,,Region - Southern and Eastern Africa,0,,TRUE
+25928040,,Region - West and Central Africa,0,,TRUE
+182,REU,Réunion,0,,FALSE
+183,ROU,Romania,0,,FALSE
+184,RUS,Russian Federation,0,,FALSE
+185,RWA,Rwanda,0,,FALSE
+186,BLM,Saint Barthélemy (France),0,,FALSE
+187,SHN,"Saint Helena, Ascension and Tristan da Cunha",0,,FALSE
+188,KNA,Saint Kitts and Nevis,0,,FALSE
+189,LCA,Saint Lucia,0,,FALSE
+190,MAF,Saint Martin (France),0,,FALSE
+191,SPM,Saint Pierre and Miquelon,0,,FALSE
+192,VCT,Saint Vincent and the Grenadines,0,,FALSE
+193,WSM,Samoa,0,,FALSE
+194,SMR,San Marino,0,,FALSE
+195,STP,São Tomé and Príncipe,0,,FALSE
+196,SAU,Saudi Arabia,0,,FALSE
+197,SEN,Senegal,0,SN,FALSE
+198,SRB,Serbia,0,,FALSE
+25724802,SCG,Serbia and Montenegro (until 2006-2009),0,,FALSE
+199,SYC,Seychelles,0,,FALSE
+200,SLE,Sierra Leone,0,,FALSE
+201,SGP,Singapore,0,,FALSE
+202,SXM,Sint Maarten (Dutch part),0,,FALSE
+203,SVK,Slovakia,0,,FALSE
+204,SVN,Slovenia,0,,FALSE
+205,SLB,Solomon Islands,0,,FALSE
+206,SOM,Somalia,0,SO,FALSE
+207,ZAF,South Africa,0,,FALSE
+208,SGS,South Georgia and the South Sandwich Islands,0,,FALSE
+211,SSD,South Sudan,0,SS,FALSE
+209,ESP,Spain,0,,FALSE
+210,LKA,Sri Lanka,0,,FALSE
+212,SDN,Sudan,0,SD,FALSE
+213,SUR,Suriname,0,,FALSE
+214,SJM,Svalbard and Jan Mayen,0,,FALSE
+216,SWE,Sweden,0,,FALSE
+217,CHE,Switzerland,0,,FALSE
+218,SYR,Syrian Arab Republic,0,SY,FALSE
+219,TWN,"Taiwan, Province of China",0,,FALSE
+220,TJK,Tajikistan,0,,FALSE
+221,TZA,"Tanzania, United Republic of",0,,FALSE
+222,THA,Thailand,0,,FALSE
+223,TLS,Timor-Leste,0,,FALSE
+224,TGO,Togo,0,,FALSE
+225,TKL,Tokelau,0,,FALSE
+226,TON,Tonga,0,,FALSE
+227,TTO,Trinidad and Tobago,0,,FALSE
+228,TUN,Tunisia,0,,FALSE
+229,TUR,Türkiye,0,,FALSE
+230,TKM,Turkmenistan,0,,FALSE
+231,TCA,Turks and Caicos Islands,0,,FALSE
+232,TUV,Tuvalu,0,,FALSE
+233,UGA,Uganda,0,,FALSE
+234,UKR,Ukraine,0,UA,FALSE
+235,ARE,United Arab Emirates,0,,FALSE
+236,GBR,United Kingdom,0,,FALSE
+237,USA,United States,0,,FALSE
+238,UMI,United States Minor Outlying Islands,0,,FALSE
+239,URY,Uruguay,0,,FALSE
+240,UZB,Uzbekistan,0,,FALSE
+241,VUT,Vanuatu,0,,FALSE
+242,VEN,"Venezuela, Bolivarian Republic of",0,VE,FALSE
+243,VNM,Viet Nam,0,,FALSE
+244,VGB,"Virgin Islands, British",0,,FALSE
+245,VIR,"Virgin Islands, U.S.",0,,FALSE
+246,WLF,Wallis and Futuna,0,,FALSE
+247,ESH,"Western Sahara, non-self-governing territory",0,,FALSE
+248,YEM,Yemen,0,YEM,FALSE
+249,ZMB,Zambia,0,ZMB,FALSE
+250,ZWE,Zimbabwe,0,ZW,FALSE
