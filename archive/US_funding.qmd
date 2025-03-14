@@ -1,0 +1,118 @@
+---
+title: "Explore US FTS data"
+format: html
+---
+
+```{r}
+#| echo: false
+# Load packages
+box::use(
+  data.table[...],
+  visualizeR[...],
+  scales[label_number],
+  dplyr[...],
+  janitor[clean_names],
+  ggplot2[...],
+  stringr[str_extract],
+  rio[import])
+# Parameters
+options(dplyr.summarise.inform = FALSE)
+# Get data
+dat <- import("data_export/FTS_data_search_results_63db21cfe202aaa37782b850e432e231_as_on_2025-01-28.xlsx", sheet = "Results - Outgoing", guess_max = 100000) |>
+    clean_names()
+```
+
+Let's start by a quick glimpse of the data. Let's draw a line plot of amount in USD by year.
+
+```{r}
+#| echo: false
+library(ggplot2)
+dat_plot <- dat |> 
+  mutate(year = as.numeric(str_extract(destination_usage_year, "\\b\\d{4}\\b"))) |>
+  group_by(year, flow_status) |> 
+  summarize(tot = sum(amount_usd, na.rm = T)) |> 
+  ungroup() |>
+  filter(year < 2025 & !is.na(year)) |> 
+  mutate(year = as.character(year)) |>
+  arrange(year, flow_status)
+```
+
+::: {layout-ncol=1 .column-page}
+```{r}
+#| echo: false
+library(ggplot2)
+dat_plot <- dat |> 
+  mutate(year = as.numeric(str_extract(destination_usage_year, "\\b\\d{4}\\b"))) |>
+  group_by(year, flow_status) |> 
+  summarize(tot = sum(amount_usd, na.rm = T)) |> 
+  ungroup() |>
+  filter(year > 2005 & year < 2025 & !is.na(year)) |> 
+  mutate(year = as.character(year)) |>
+  arrange(year, flow_status)
+```
+
+```{r}
+#| echo: false
+# Stacked bar plot of funding per year, colored by status
+bar_ts <- ggplot(
+    dat_plot,
+    aes(
+      x = year,
+      y = tot,
+      fill = flow_status
+    )
+  ) +
+  geom_bar(stat = "identity", position = position_dodge(preserve = "single")) +
+  scale_y_continuous(labels = label_number(scale = 1e-9, suffix = "B")) +
+  #scale_x_continuous(breaks = c(2008:2028)) +
+  scale_fill_visualizer_discrete() +
+  theme_minimal() +
+  theme(
+    legend.position = "top"
+    ) +
+  labs(
+    title = "Funding of U.S.A from 2008 to 2024",
+    fill = "Type of funding",
+    caption = "Flows over several years were attributed to the first destination year.",
+    x = NULL,
+    y = NULL
+    )
+```
+
+```{r}
+#| echo: false
+# Do the same but with lines
+line_ts <- ggplot(
+  dat_plot,
+  aes(
+    x = year,
+    y = tot,
+    color = flow_status,
+    group = flow_status
+  )
+) +
+  geom_line() +
+  geom_point() +
+  scale_y_continuous(labels = label_number(scale = 1e-9, suffix = "B")) +
+  scale_color_visualizer_discrete() +
+  theme_minimal() +
+  theme(
+    legend.position = "top"
+    ) +
+  labs(
+    title = "Funding of U.S.A from 2008 to 2024",
+    color = "Type of funding",
+    caption = "Flows over several years were attributed to the first destination year.",
+    x = NULL,
+    y = NULL
+)
+```
+
+```{r}
+#| echo: false
+#| fig-align: center
+#library(patchwork)
+# Combine plots
+line_ts
+```
+::: 
